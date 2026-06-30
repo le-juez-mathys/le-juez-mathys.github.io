@@ -8,72 +8,87 @@
 </head>
 <body>
 
+<div class="statbar">
+  <div class="wrap">
+    <div class="stat-cell"><div class="stat-label">JOURNAL</div><div class="stat-value">PROJETS.LOG</div></div>
+    <div class="stat-cell"><div class="stat-label">QUÊTES</div><div class="stat-value">4</div></div>
+    <div class="stat-cell"><div class="stat-label">MOTEUR</div><div class="stat-value">UNREAL ENGINE</div></div>
+    <div class="stat-cell"><div class="stat-label">STATUS</div><div class="stat-value ok">4/4 TERMINÉES</div></div>
+  </div>
+</div>
+
 <header>
   <div class="nav-inner">
-    <div class="logo">mathys<span>@</span>cv<span>:~$</span></div>
+    <div class="logo">mathys<span>.</span>cv</div>
     <nav>
       <ul>
-        <li><a href="index.html">~/accueil</a></li>
-        <li><a href="formation.html">~/formation</a></li>
-        <li><a href="emploi.html">~/emploi</a></li>
-        <li><a href="projets.html">~/projets</a></li>
+        <li><a href="index.html">accueil</a></li>
+        <li><a href="formation.html">formation</a></li>
+        <li><a href="emploi.html">emploi</a></li>
+        <li><a href="projets.html">projets</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero" style="padding-bottom:32px">
+  <section class="hero" style="padding-bottom:24px">
     <div class="wrap">
-      <p class="prompt-line">$ ls ./projets</p>
-      <h1 class="title" style="font-size:clamp(26px,4vw,38px)">Projets</h1>
-      <p class="about-text">Une sélection de projets persos et d'école, principalement en C++ sur Unreal Engine, autour de deux axes : la programmation de gameplay et la programmation d'intelligence artificielle.</p>
+      <p class="save-tag">[ JOURNAL DE QUÊTES — PROJETS ]</p>
+      <h1 class="name" style="font-size:clamp(22px,3.5vw,28px)">Projets</h1>
+      <p class="about-text" style="padding:14px 0 0;border:none">Une sélection de projets persos et d'école, principalement en C++ sur Unreal Engine, autour de deux axes : la programmation de gameplay et la programmation d'intelligence artificielle.</p>
     </div>
   </section>
 
-  <section>
+  <section style="border-top:none;padding-top:0">
     <div class="wrap">
-      <div class="card-grid">
+      <div class="quest-log">
 
-        <div class="card">
-          <div class="card-head"><h3>Capstone</h3><span class="card-year">2024</span></div>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">Capstone — IA multijoueur</span>
+            <span class="quest-status done">TERMINÉ</span>
+          </div>
+          <p class="quest-date">2024</p>
           <p>Projet multijoueur réalisé avec Unreal Engine en C++. Développement de plusieurs modules, dont les logiques d'intelligence artificielle et diverses intégrations de gameplay, comme le système de combat à la lance.</p>
           <div class="tag-row">
-            <span class="tag">C++</span>
-            <span class="tag">Unreal Engine</span>
-            <span class="tag">IA</span>
-            <span class="tag">Multijoueur</span>
+            <span class="tag">C++</span><span class="tag">Unreal Engine</span><span class="tag">IA</span><span class="tag">Multijoueur</span>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-head"><h3>New COD</h3><span class="card-year">2025</span></div>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">New COD — FPS / IA</span>
+            <span class="quest-status done">TERMINÉ</span>
+          </div>
+          <p class="quest-date">2025</p>
           <p>Réalisation d'un FPS en C++ sur Unreal Engine, avec un développement centré sur la logique des intelligences artificielles directement en C++.</p>
           <div class="tag-row">
-            <span class="tag">C++</span>
-            <span class="tag">Unreal Engine</span>
-            <span class="tag">FPS</span>
-            <span class="tag">IA</span>
+            <span class="tag">C++</span><span class="tag">Unreal Engine</span><span class="tag">FPS</span><span class="tag">IA</span>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-head"><h3>Wine Maker</h3><span class="card-year">2024</span></div>
-          <p>Simulateur de gestion d'un domaine viticole en C++ et Unreal Engine. Développement de l'ensemble de la logique de transformation du raisin, en intégrant les différentes étapes et machines jusqu'au produit final.</p>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">Wine Maker — simulateur de gestion</span>
+            <span class="quest-status done">TERMINÉ</span>
+          </div>
+          <p class="quest-date">2024</p>
+          <p>Simulateur de gestion d'un domaine viticole en C++ et Unreal Engine. Développement de l'ensemble de la logique de transformation du raisin, des étapes et machines jusqu'au produit final.</p>
           <div class="tag-row">
-            <span class="tag">C++</span>
-            <span class="tag">Unreal Engine</span>
-            <span class="tag">Simulation</span>
+            <span class="tag">C++</span><span class="tag">Unreal Engine</span><span class="tag">Simulation</span>
           </div>
         </div>
 
-        <div class="card">
-          <div class="card-head"><h3>Gaia Survivor</h3><span class="card-year">2024</span></div>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">Gaia Survivor — roguelike 3D</span>
+            <span class="quest-status done">TERMINÉ</span>
+          </div>
+          <p class="quest-date">2024</p>
           <p>Réalisation d'un roguelike en 3D sur Unreal Engine.</p>
           <div class="tag-row">
-            <span class="tag">Unreal Engine</span>
-            <span class="tag">Roguelike</span>
-            <span class="tag">3D</span>
+            <span class="tag">Unreal Engine</span><span class="tag">Roguelike</span><span class="tag">3D</span>
           </div>
         </div>
 
@@ -83,9 +98,9 @@
 
   <section>
     <div class="wrap">
-      <p class="section-label">// liens</p>
+      <p class="section-label">// dépôt</p>
       <h2 class="section-title">Code source</h2>
-      <p style="color:var(--text-dim);max-width:560px;margin-bottom:18px">L'ensemble du code et des dépôts de projets est disponible sur GitHub.</p>
+      <p style="color:var(--text-dim);max-width:560px;margin-bottom:18px;font-size:13.5px">L'ensemble du code et des dépôts de projets est disponible sur GitHub.</p>
       <a class="btn" href="https://github.com/le-juez-mathys" target="_blank" rel="noopener">github.com/le-juez-mathys →</a>
     </div>
   </section>

@@ -6,19 +6,27 @@
 <title>Mathys Le Juez — Programmeur / Développeur</title>
 <meta name="description" content="Mathys Le Juez, programmeur spécialisé en simulation 3D, jeu vidéo et réalité virtuelle (Unity, Unreal Engine, C++).">
 <link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
 
+<div class="statbar">
+  <div class="wrap">
+    <div class="stat-cell"><div class="stat-label">ENGINE</div><div class="stat-value">UNREAL 5</div></div>
+    <div class="stat-cell"><div class="stat-label">XP</div><div class="stat-value">C++ / C#</div></div>
+    <div class="stat-cell"><div class="stat-label">UPTIME</div><div class="stat-value">6 ANS</div></div>
+    <div class="stat-cell"><div class="stat-label">STATUS</div><div class="stat-value ok">EN LIGNE</div></div>
+  </div>
+</div>
+
 <header>
   <div class="nav-inner">
-    <div class="logo">mathys<span>@</span>cv<span>:~$</span></div>
+    <div class="logo">mathys<span>.</span>cv</div>
     <nav>
       <ul>
-        <li><a href="index.html">~/accueil</a></li>
-        <li><a href="formation.html">~/formation</a></li>
-        <li><a href="emploi.html">~/emploi</a></li>
-        <li><a href="projets.html">~/projets</a></li>
+        <li><a href="index.html">accueil</a></li>
+        <li><a href="formation.html">formation</a></li>
+        <li><a href="emploi.html">emploi</a></li>
+        <li><a href="projets.html">projets</a></li>
       </ul>
     </nav>
   </div>
@@ -27,24 +35,49 @@
 <main>
   <section class="hero">
     <div class="wrap">
-      <p class="prompt-line" id="boot-line">$ compiling cv.exe ...</p>
-      <h1 class="title">Mathys Le Juez</h1>
-      <p class="role">Programmeur / Développeur — jeu vidéo &amp; simulation 3D<span class="cursor"></span></p>
-      <p class="about-text">26 ans, passionné par la programmation, particulièrement dans le domaine du jeu vidéo et de la simulation 3D. Spécialisé en gameplay et IA sur Unity et Unreal Engine, avec une expérience concrète sur des simulateurs professionnels (drone, cockpit A330/MRTT en réalité virtuelle).</p>
-      <div class="hero-meta">
-        <a href="tel:0652803902"><i class="ti ti-phone"></i>06 52 80 39 02</a>
-        <a href="mailto:mathyslejuezpro@outlook.fr"><i class="ti ti-mail"></i>mathyslejuezpro@outlook.fr</a>
-        <a href="https://github.com/le-juez-mathys" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i>github.com/le-juez-mathys</a>
-        <span><i class="ti ti-map-pin"></i>La Seyne-sur-Mer (83)</span>
+      <div class="panel">
+        <div class="panel-head">
+          <div class="save-label">[ FICHIER DE SAUVEGARDE CHARGÉ ]</div>
+          <h1 class="name">Mathys Le Juez</h1>
+          <p class="lvl-line">LVL 26 — Programmeur gameplay &amp; IA</p>
+        </div>
+        <p class="about-text">26 ans, passionné par la programmation, particulièrement dans le domaine du jeu vidéo et de la simulation 3D. Spécialisé en gameplay et IA sur Unity et Unreal Engine, avec une expérience concrète sur des simulateurs professionnels (drone, cockpit A330/MRTT en réalité virtuelle).</p>
+        <div class="contact-row">
+          <div class="contact-cell"><i class="ti ti-phone"></i><a href="tel:0652803902">06 52 80 39 02</a></div>
+          <div class="contact-cell"><i class="ti ti-mail"></i><a href="mailto:mathyslejuezpro@outlook.fr">mathyslejuezpro@outlook.fr</a></div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-cell"><i class="ti ti-brand-github"></i><a href="https://github.com/le-juez-mathys" target="_blank" rel="noopener">github.com/le-juez-mathys</a></div>
+          <div class="contact-cell"><i class="ti ti-map-pin"></i>La Seyne-sur-Mer (83)</div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="competences">
+  <section>
     <div class="wrap">
-      <p class="section-label">// 01</p>
+      <p class="section-label">// compétences — barres d'expérience</p>
       <h2 class="section-title">Compétences</h2>
-      <div class="skills-grid">
+      <div class="panel" style="padding:20px 22px">
+        <div class="xp-row">
+          <div class="xp-top"><span>Unreal Engine / C++ — gameplay &amp; IA</span><span class="val">92</span></div>
+          <div class="xp-track"><div class="xp-fill" style="width:92%"></div></div>
+        </div>
+        <div class="xp-row">
+          <div class="xp-top"><span>Unity 3D / C#</span><span class="val">88</span></div>
+          <div class="xp-track"><div class="xp-fill" style="width:88%"></div></div>
+        </div>
+        <div class="xp-row">
+          <div class="xp-top"><span>Réalité virtuelle (HTC Vive / Meta Quest)</span><span class="val">81</span></div>
+          <div class="xp-track"><div class="xp-fill" style="width:81%"></div></div>
+        </div>
+        <div class="xp-row">
+          <div class="xp-top"><span>Python / OCR / Web (HTML, CSS, JS, React)</span><span class="val">70</span></div>
+          <div class="xp-track"><div class="xp-fill" style="width:70%"></div></div>
+        </div>
+      </div>
+
+      <div class="skills-grid" style="margin-top:18px">
         <div class="skill-block">
           <h3>Langages &amp; moteurs</h3>
           <div class="tag-row">
@@ -53,24 +86,6 @@
             <span class="tag">C</span>
             <span class="tag">Blueprint</span>
             <span class="tag">Python</span>
-          </div>
-        </div>
-        <div class="skill-block">
-          <h3>Moteurs de jeu</h3>
-          <div class="tag-row">
-            <span class="tag">Unity 3D</span>
-            <span class="tag">Unreal Engine</span>
-            <span class="tag">Gameplay programming</span>
-            <span class="tag">AI programming</span>
-          </div>
-        </div>
-        <div class="skill-block">
-          <h3>Web &amp; autres</h3>
-          <div class="tag-row">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">JavaScript</span>
-            <span class="tag">React JS</span>
           </div>
         </div>
         <div class="skill-block">
@@ -84,25 +99,25 @@
     </div>
   </section>
 
-  <section id="apercu">
+  <section>
     <div class="wrap">
-      <p class="section-label">// 02</p>
-      <h2 class="section-title">Parcours en bref</h2>
+      <p class="section-label">// navigation rapide</p>
+      <h2 class="section-title">Parcours</h2>
       <div class="card-grid">
         <div class="card">
           <div class="card-head"><h3>Formation</h3><span class="card-year">2018–2025</span></div>
           <p>Bachelor puis Master à Epitech, certifié développement de jeux vidéo sous Unreal Engine.</p>
-          <a href="formation.html" class="btn">voir le détail →</a>
+          <a href="formation.html" class="btn">consulter →</a>
         </div>
         <div class="card">
           <div class="card-head"><h3>Emploi</h3><span class="card-year">2024–2025</span></div>
           <p>CDI chez VSM, développement d'une simulation VR d'A330/MRTT pour la formation militaire.</p>
-          <a href="emploi.html" class="btn">voir le détail →</a>
+          <a href="emploi.html" class="btn">consulter →</a>
         </div>
         <div class="card">
           <div class="card-head"><h3>Projets</h3><span class="card-year">2024–2025</span></div>
-          <p>FPS, roguelike, simulateur de gestion viticole — tous développés en C++ sur Unreal Engine.</p>
-          <a href="projets.html" class="btn">voir le détail →</a>
+          <p>FPS, roguelike, simulateur de gestion viticole — tous en C++ sur Unreal Engine.</p>
+          <a href="projets.html" class="btn">consulter →</a>
         </div>
       </div>
     </div>
@@ -116,7 +131,7 @@
   </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.47.0/iconfont/tabler-icons.min.css"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.47.0/iconfont/tabler-icons.min.css">
 <script src="script.js"></script>
 </body>
 </html>

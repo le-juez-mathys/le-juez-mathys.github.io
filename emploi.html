@@ -8,50 +8,59 @@
 </head>
 <body>
 
+<div class="statbar">
+  <div class="wrap">
+    <div class="stat-cell"><div class="stat-label">JOURNAL</div><div class="stat-value">EMPLOI.LOG</div></div>
+    <div class="stat-cell"><div class="stat-label">EMPLOYEUR</div><div class="stat-value">VSM</div></div>
+    <div class="stat-cell"><div class="stat-label">PROJET</div><div class="stat-value">MRTT / A330</div></div>
+    <div class="stat-cell"><div class="stat-label">STATUS</div><div class="stat-value">CDI ACTIF</div></div>
+  </div>
+</div>
+
 <header>
   <div class="nav-inner">
-    <div class="logo">mathys<span>@</span>cv<span>:~$</span></div>
+    <div class="logo">mathys<span>.</span>cv</div>
     <nav>
       <ul>
-        <li><a href="index.html">~/accueil</a></li>
-        <li><a href="formation.html">~/formation</a></li>
-        <li><a href="emploi.html">~/emploi</a></li>
-        <li><a href="projets.html">~/projets</a></li>
+        <li><a href="index.html">accueil</a></li>
+        <li><a href="formation.html">formation</a></li>
+        <li><a href="emploi.html">emploi</a></li>
+        <li><a href="projets.html">projets</a></li>
       </ul>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero" style="padding-bottom:32px">
+  <section class="hero" style="padding-bottom:24px">
     <div class="wrap">
-      <p class="prompt-line">$ cat emploi.log</p>
-      <h1 class="title" style="font-size:clamp(26px,4vw,38px)">Stages &amp; emploi</h1>
-      <p class="about-text">De Hydroption à VSM, un fil conducteur : la simulation 3D et la réalité virtuelle au service de la formation, jusqu'au CDI actuel sur le projet MRTT pour la BA 125 d'Istres.</p>
+      <p class="save-tag">[ QUÊTE PRINCIPALE — CARRIÈRE ]</p>
+      <h1 class="name" style="font-size:clamp(22px,3.5vw,28px)">Stages &amp; emploi</h1>
+      <p class="about-text" style="padding:14px 0 0;border:none">De Hydroption à VSM, un fil conducteur : la simulation 3D et la réalité virtuelle au service de la formation, jusqu'au CDI actuel sur le projet MRTT pour la BA 125 d'Istres.</p>
     </div>
   </section>
 
-  <section>
+  <section style="border-top:none;padding-top:0">
     <div class="wrap">
       <p class="section-label">// emploi</p>
       <h2 class="section-title">Emploi</h2>
-      <div class="timeline">
+      <div class="quest-log">
 
-        <div class="tl-item">
-          <div class="tl-head">
-            <h3>VSM — Développeur Unity 3D/VR</h3>
-            <span class="tl-tag">CDI</span>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">VSM — Développeur Unity 3D/VR</span>
+            <span class="quest-status active">EN COURS — CDI</span>
           </div>
-          <span class="tl-date">2025</span>
+          <p class="quest-date">2025</p>
           <p>Poursuite du développement du projet MRTT pour la BA 125 d'Istres. En parallèle, pilotage de la transition technologique du casque HTC Vive vers le Meta Quest, afin d'optimiser l'ergonomie et de faciliter les mouvements des élèves PNC dans l'environnement de formation.</p>
         </div>
 
-        <div class="tl-item">
-          <div class="tl-head">
-            <h3>VSM — Développeur Unity 3D/VR</h3>
-            <span class="tl-tag">CDD 6 mois</span>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">VSM — Développeur Unity 3D/VR</span>
+            <span class="quest-status done">TERMINÉ — CDD 6 mois</span>
           </div>
-          <span class="tl-date">2025</span>
+          <p class="quest-date">2025</p>
           <p>Poursuite du développement de la simulation de la réplique du MRTT, commencée en alternance, afin d'améliorer la formation des PNC militaires.</p>
         </div>
 
@@ -63,32 +72,32 @@
     <div class="wrap">
       <p class="section-label">// stages</p>
       <h2 class="section-title">Stages</h2>
-      <div class="timeline">
+      <div class="quest-log">
 
-        <div class="tl-item">
-          <div class="tl-head">
-            <h3>VSM — Développeur Unity 3D/VR</h3>
-            <span class="tl-tag">alternance · 6 mois</span>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">VSM — Développeur Unity 3D/VR</span>
+            <span class="quest-status done">TERMINÉ — alternance 6 mois</span>
           </div>
-          <span class="tl-date">2024 – 2025</span>
+          <p class="quest-date">2024 – 2025</p>
           <p>Création d'une simulation 3D et en réalité virtuelle dans une réplique d'Airbus A330/MRTT (Multi Role Tanker Transport), pour permettre au personnel naviguant militaire de s'entraîner aux situations d'urgence. Projet réalisé en C# sur Unity 2022, avec un casque HTC Vive.</p>
         </div>
 
-        <div class="tl-item">
-          <div class="tl-head">
-            <h3>VSM — Développeur Unity 3D</h3>
-            <span class="tl-tag">stage · 4 mois</span>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">VSM — Développeur Unity 3D</span>
+            <span class="quest-status done">TERMINÉ — stage 4 mois</span>
           </div>
-          <span class="tl-date">2023</span>
+          <p class="quest-date">2023</p>
           <p>Maintien et amélioration d'un simulateur de drone, développé sur Unity 2020 en C#.</p>
         </div>
 
-        <div class="tl-item">
-          <div class="tl-head">
-            <h3>Hydroption — Développeur de projets informatiques</h3>
-            <span class="tl-tag">stage · 6 mois</span>
+        <div class="quest-item">
+          <div class="quest-top">
+            <span class="quest-title">Hydroption — Développeur de projets informatiques</span>
+            <span class="quest-status done">TERMINÉ — stage 6 mois</span>
           </div>
-          <span class="tl-date">2020</span>
+          <p class="quest-date">2020</p>
           <p>Création d'un site internet en HTML/CSS/JavaScript et WordPress, ainsi que le développement d'un outil d'OCR en Python.</p>
         </div>
 
